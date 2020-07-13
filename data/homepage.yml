@@ -1,0 +1,139 @@
+############################# banner ############################
+banner:
+    enable : true
+    title : "Believe in Technology, Make the change"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+    image : "images/yogurt.png"
+    button: "Buy Now With $5.99"
+    
+############################## product ###########################
+product:
+    name : "Monk Yogurt"
+    image : "images/yogurt.png"
+    price : "5.99"
+    flavors : ["strawberry","blueberry","vanilla"]
+    sizes : ["4oz"]
+
+############################# Feature ############################
+features:
+    enable : true
+    title : "Why Monk?"
+    image : "images/yogurt.png"
+  
+    # feature at the left of the image
+    leftSide:
+      # feature item loop
+    - icon : "tf-ion-ios-heart"
+      title : "Smooth Touch"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      
+      # feature item loop
+    - icon : "tf-ion-leaf"
+      title : "Plant Based"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      
+      # feature item loop
+    - icon : "tf-ion-ios-nutrition"
+      title : "Microgreens"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  
+  
+    # feature at the right of the image
+    rightSide:
+      # feature item loop
+    - icon : "tf-ion-ios-alarm-outline"
+      title : "Low Glycemic"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  
+      # feature item loop
+    - icon : "tf-ion-ios-bell-outline"
+      title : "All Natural"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  
+      # feature item loop
+    - icon : "tf-ion-ios-cart-outline"
+      title : "Easy Pricing"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  
+############################# promo ############################
+promo:
+    enable : true
+    image : "images/steph.png"
+    title : "Designed for athletes, for maximum energy"
+    content : "Protein is essential to our health. It acts as building blocks to nearly everything in our body—bones, muscles, skin, hair, and nails. 
+              <br><br>
+              Fortified with prebiotics and a 20 million-spore probiotic, our milk protein is gentle on the stomach + works fast to boost energy levels and repair sore muscles.."
+  
+
+############################# About our team #######################
+aboutProduct:
+    enable : true
+    title : "The Team behind Monk"
+    items:
+      # about product item loop
+      - image : "images/member-1.png"
+        title : "Isabel Potter."
+        content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+              sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+              quas, quo harum deserunt consequatur cumque!"
+        # button:
+        #   enable : true
+        #   label : "Check Features"
+        #   link : "#"
+          
+      # about product item loop
+      - image : "images/member-2.png"
+        title : "Rishabh Parekh."
+        content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+              sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+              quas, quo harum deserunt consequatur cumque!"
+        # button:
+        #   enable : true
+        #   label : "Check Features"
+        #   link : "#"
+
+         
+      # about product item loop
+      - image : "images/member-3.png"
+        title : "Devanshi Rathi."
+        content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+              sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+              quas, quo harum deserunt consequatur cumque!"
+        # button:
+        #   enable : true
+        #   label : "Check Features"
+        #   link : "#"
+
+
+#################################### Gallery ########################
+gallery:
+    enable : true
+    title : "Checkout some amazing results"
+    # Set the image directory to use as base
+    directory : "images/showcase"
+    # Set the images to show in the gallery
+    images : ["novak.png","serena.png","kyrie.png","scott.png","jermain.png","david.png","colin.png"]
+  
+
+############################## Testimonial ##########################
+testimonial:
+    enable : true
+    title : "Customer Testimonials"
+    testimonialItem:
+      # testimonial item loop
+      - name : "Novak Djokovic"
+        designation : "World No. 1, ATP Men's Tennis"
+        image : "images/novak.png"
+        content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+        
+      # testimonial item loop
+      - name : "Kyrie Irving"
+        designation : "Boston Celtics, NBA"
+        image : "images/kyrie.png"
+        content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+        
+      # testimonial item loop
+      - name : "Serena Williams"
+        designation : "World No. 1, ATP Women's Tennis"
+        image : "images/serena.png"
+        content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
